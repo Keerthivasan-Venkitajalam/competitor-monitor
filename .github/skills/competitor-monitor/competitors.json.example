@@ -1,0 +1,18 @@
+{
+  "competitors": [
+    {
+      "name": "Competitor Name",
+      "url": "https://competitor-website.com",
+      "crunchbase": "https://www.crunchbase.com/organization/competitor-name",
+      "twitter": "@competitor_handle",
+      "description": "Brief description of what they do"
+    },
+    {
+      "name": "Another Competitor",
+      "url": "https://another-competitor.com",
+      "crunchbase": "https://www.crunchbase.com/organization/another-competitor",
+      "twitter": "@another_competitor",
+      "description": "Brief description of what they do"
+    }
+  ]
+}

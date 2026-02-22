@@ -1,0 +1,25 @@
+{
+  "competitors": [
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "crunchbase": "https://www.crunchbase.com/organization/lovable",
+      "twitter": "@lovable_dev",
+      "description": "Build apps & websites with AI, fast. No code app builder."
+    },
+    {
+      "name": "v0 by Vercel",
+      "url": "https://v0.dev",
+      "crunchbase": "https://www.crunchbase.com/organization/vercel",
+      "twitter": "@vercel",
+      "description": "Build agents, apps, and websites with AI."
+    },
+    {
+      "name": "Emergent",
+      "url": "https://emergent.sh",
+      "crunchbase": "https://www.crunchbase.com/organization/emergent",
+      "twitter": "@emergent_sh",
+      "description": "Build apps with AI - no coding required."
+    }
+  ]
+}
