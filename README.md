@@ -45,16 +45,16 @@ By combining **browser automation**, **semantic diffing**, and **intelligent rep
 
 ## Key Features
 
-### 🧠 Semantic Diffing (Not Just Text Comparison)
+### Semantic Diffing (Not Just Text Comparison)
 
 Traditional tools flag every typo. Competitor Monitor uses AI embeddings to detect REAL strategic changes:
 
-- ✅ **Pricing model changes** - New tiers, price adjustments
-- ✅ **Feature launches** - New product announcements
-- ✅ **Positioning pivots** - Target market shifts
-- ✅ **Messaging updates** - Value proposition changes
-- ❌ **Typo fixes** - Ignored
-- ❌ **Date updates** - Ignored
+- **Pricing model changes** - New tiers, price adjustments
+- **Feature launches** - New product announcements
+- **Positioning pivots** - Target market shifts
+- **Messaging updates** - Value proposition changes
+- **Typo fixes** - Ignored
+- **Date updates** - Ignored
 
 **How it works:**
 1. Extracts text from competitor websites using Playwright
@@ -62,7 +62,7 @@ Traditional tools flag every typo. Competitor Monitor uses AI embeddings to dete
 3. Calculates cosine similarity vs. historical baseline
 4. Flags changes < 80% similarity as "Strategic Shift"
 
-### 📊 Executive Intelligence Reports
+### Executive Intelligence Reports
 
 Generated reports include:
 - **Executive summary** with key findings across all competitors
@@ -72,7 +72,7 @@ Generated reports include:
 - **Actionable recommendations** for strategic response
 - **Error handling** with graceful degradation
 
-### 🔒 Privacy-First Design
+### Privacy-First Design
 
 - All processing runs **locally** on your machine
 - No data sent to external servers
@@ -80,14 +80,14 @@ Generated reports include:
 - Full control over your competitive intelligence data
 - GDPR and privacy-compliant by design
 
-### 📈 Historical Tracking
+### Historical Tracking
 
 - Automatic report archiving with timestamps (`YYYY-MM-DD_Intelligence.md`)
 - Trend analysis over time
 - Compare current state vs. any historical baseline
 - Track competitor evolution and strategic patterns
 
-### 🤖 Autonomous Execution
+### Autonomous Execution
 
 - Configure competitors once in JSON
 - Run manually or schedule automatically (cron, GitHub Actions)
@@ -146,6 +146,7 @@ graph TB
     class Browser,DOM collection;
     class Semantic,Model analysis;
     class Organizer,Storage storage;
+
 ```
 
 ---
@@ -535,7 +536,7 @@ The current content was compared against the baseline from 2026-02-19.
 The cosine similarity between embeddings is 72.0%, indicating a 
 Strategic_Shift.
 
-> **⚠️ STRATEGIC SHIFT DETECTED**
+> **STRATEGIC SHIFT DETECTED**
 > 
 > This competitor has made a significant change in their messaging that 
 > may indicate a change in business strategy, pricing model, or target 
@@ -578,39 +579,6 @@ Based on the analysis, consider the following actions:
 
 ---
 
-## Contributing
-
-Contributions are welcome! Whether you're fixing bugs, adding features, improving documentation, or enhancing the AI analysis, your help is appreciated.
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add some amazing feature'`)
-4. **Add tests** for new functionality
-5. **Push** to the branch (`git push origin feature/amazing-feature`)
-6. **Open** a Pull Request
-
-### Development Guidelines
-
-- Follow PEP 8 style guidelines
-- Write type hints for all functions
-- Add docstrings for public APIs
-- Update documentation for new features
-- Run tests before submitting PRs
-- Keep commits atomic and well-described
-
-### Areas for Contribution
-
-- [ ] Crunchbase funding round monitoring
-- [ ] Twitter/X sentiment analysis
-- [ ] Web dashboard for trend visualization
-- [ ] Multi-language support
-- [ ] Enhanced error recovery
-- [ ] Performance optimizations
-- [ ] Additional embedding models
-- [ ] Notification integrations (Slack, Discord, Email)
-
----
-
 <div align="center">
 
 ## Developer
@@ -618,7 +586,6 @@ Contributions are welcome! Whether you're fixing bugs, adding features, improvin
 **Keerthivasan S V**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Keerthivasan--Venkitajalam-181717?style=for-the-badge&logo=github)](https://github.com/Keerthivasan-Venkitajalam)
-[![Email](https://img.shields.io/badge/Email-keerthivasansv2006%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:keerthivasansv2006@gmail.com)
 
 **Competitor Monitor** is a production-ready competitive intelligence platform built for indie hackers and solo founders.
 
@@ -637,7 +604,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 
 ---
 
-**From 45 minutes of manual work to 2 minutes of automated intelligence.** 🚀
+**From 45 minutes of manual work to 2 minutes of automated intelligence.**
 
 *Built for the "Automate Me If You Can" Hackathon*
 
